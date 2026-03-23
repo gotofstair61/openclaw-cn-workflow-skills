@@ -15,7 +15,10 @@ The design is inspired by [obra/superpowers](https://github.com/obra/superpowers
 
 ## What This Repo Contains
 
-This is a skill suite, not a single skill.
+This repository now contains both:
+
+- a workflow skill suite
+- a packaged single-skill edition for easier marketplace distribution
 
 It contains four workflow skills:
 
@@ -24,7 +27,26 @@ It contains four workflow skills:
 3. `openclaw-cn-execute-plan`
 4. `openclaw-cn-verify-completion`
 
+And one packaged distribution-friendly skill:
+
+5. `openclaw-cn-workflow`
+
 ## Skills
+
+### Packaged single-skill edition
+
+If you want the easiest install and distribution path, especially for ClawHub, use:
+
+- [openclaw-cn-workflow](./openclaw-cn-workflow)
+
+This packaged skill combines:
+
+- triggering logic
+- understanding confirmation
+- checklist-based execution
+- completion verification
+
+The four-skill version is still kept in this repository because it is easier to evolve and reason about internally.
 
 ### 1. `openclaw-cn-model-guardrails`
 
@@ -193,8 +215,9 @@ ClawHub is better suited to publishing one skill directory per entry.
 
 Recommended publishing model:
 
-- GitHub: publish this entire repository as one skill suite repo
-- ClawHub: publish four entries, one for each skill directory
+- GitHub: publish this entire repository as one repo
+- ClawHub: publish `openclaw-cn-workflow` as the primary packaged skill
+- Optional: publish the four-skill suite as advanced/internal variants
 
 ## Validation
 
@@ -204,6 +227,10 @@ All four skill directories pass the base skill validator:
 - `openclaw-cn-confirm-task`
 - `openclaw-cn-execute-plan`
 - `openclaw-cn-verify-completion`
+
+The packaged single-skill edition should also be validated before publishing:
+
+- `openclaw-cn-workflow`
 
 ## License
 

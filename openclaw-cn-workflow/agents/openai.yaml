@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenClaw 中文工作流"
+  short_description: "单包复杂任务确认、执行与验收"
+  default_prompt: "Use $openclaw-cn-workflow for complex multi-step tasks that need understanding confirmation, checklist-based execution, and completion verification."
