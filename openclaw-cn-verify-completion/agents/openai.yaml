@@ -1,0 +1,4 @@
+interface:
+  display_name: "完成前验收"
+  short_description: "结束前逐项核对，不许提前收尾"
+  default_prompt: "Use $openclaw-cn-verify-completion before claiming success, and verify that every required step, format requirement, and hard constraint has been satisfied."

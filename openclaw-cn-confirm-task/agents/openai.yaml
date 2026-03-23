@@ -1,0 +1,4 @@
+interface:
+  display_name: "任务理解确认"
+  short_description: "先对齐理解、边界和步骤清单"
+  default_prompt: "Use $openclaw-cn-confirm-task to restate the task, present key options, draft the execution contract, and ask for one approval before acting."

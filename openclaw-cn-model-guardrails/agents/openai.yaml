@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenClaw 中文总控"
+  short_description: "仅复杂任务触发的流程总控"
+  default_prompt: "Use $openclaw-cn-model-guardrails only for complex multi-step tasks that need confirmation, guided execution, and completion verification."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "按清单执行"
+  short_description: "确认后持续执行，不逐步等批准"
+  default_prompt: "Use $openclaw-cn-execute-plan to execute the approved checklist continuously, update step status, and only interrupt for real blockers."
